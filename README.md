@@ -8,9 +8,9 @@ This repository contains PowerShell scripts designed for interacting with the TR
 
 - Install [SharepointPnPPowerShellOnline](https://pnp.github.io/powershell/):
   - Run PowerShell as administrator
-		Install-Module SharePointPnPPowerShellOnline
+        Install-Module SharePointPnPPowerShellOnline
 - Set execution policy to allow scripts to run
-		Set-ExecutionPolicy RemoteSigned
+        Set-ExecutionPolicy RemoteSigned
 - Create the local authorization file
   - Web logins are used for the PWRE site
   - For the USWM site, a common service account is used. Create an authorization file for this account called "USWM.auth" (will be ignored by GitHub) and save it in the "Functions" directory. The screenshot below shows the required file format
